@@ -1,0 +1,91 @@
+[DEVICE]
+Name=MSP432P401R
+Clock=48000000
+[BUILD_TYPE]
+Value=1
+
+[MEMORY_MODEL]
+Value=0
+[ACTIVE_TAB]
+Value=Click_3DHall2_config.h
+[USE_EEPROM]
+Value=0
+[USE_HEAP]
+Value=0
+[HEAP_SIZE]
+Value=0
+[EEPROM_DEFINITION]
+Value=
+[FILES]
+File0=Click_3DHall2_MSP.c
+File1=..\..\..\..\library\__c3dhall2_driver.c
+Count=2
+[BINARIES]
+Count=0
+[IMAGES]
+Count=0
+ActiveImageIndex=-1
+[OPENED_FILES]
+File0=Click_3DHall2_MSP.c
+File1=..\..\..\..\library\__c3dhall2_driver.h
+File2=..\..\..\..\library\__c3dhall2_driver.c
+File3=Click_3DHall2_config.h
+Count=4
+[EEPROM]
+Count=0
+[ACTIVE_COMMENTS_FILES]
+Count=0
+[OTHER_FILES]
+Count=0
+[SEARCH_PATH]
+Path0=..\..\..\..\library\HAL\
+Path1=..\..\..\..\library\
+Path2=C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\mikroBUS V8 Board Definition API\Uses\
+Count=3
+[HEADER_PATH]
+Path0=..\..\..\..\library\
+Path1=..\..\..\..\library\HAL\
+Path2=C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\mikroBUS V8 Board Definition API\Uses\
+Count=3
+[HEADERS]
+File0=..\..\..\..\library\__c3dhall2_driver.h
+File1=Click_3DHall2_config.h
+File2=Click_3DHall2_types.h
+Count=3
+[PLDS]
+File0=Click_3DHall2.pld
+Count=1
+[Useses]
+File0=Conversions
+File1=C_String
+File2=I2C
+File3=UART
+File4=fusion_v8_MSP432P401RIPZ
+Count=5
+[EXPANDED_NODES]
+0=Click_3DHall2_MSP.mcpar
+1=Sources
+4=Header Files
+Count=3
+[LIB_EXPANDED_NODES]
+0=mikroE Libraries
+1=System Libraries
+946=Third Party Libraries
+2035=mikroBUS V8 Board Definition API
+Count=4
+[PROGRAMMER_OPTIONS]
+Value=SWD
+[PROGRAMMER_TYPE]
+Value=mikroE UAPD
+[DEBUGGER_TYPE]
+Value=default
+[UAPD_OPTIONS]
+UAPD_RESET_TYPE=1
+UAPD_ERASE_TYPE=1
+UAPD_CONNECTION=1
+UAPD_SPEED=0
+UAPD_HALT_AFTER=0
+[AT_DEBUG_STARTUP]
+LOAD_BIN_TO_RAM=0
+START_EXEC_FROM_ADDR=0
+START_ADDR=-1

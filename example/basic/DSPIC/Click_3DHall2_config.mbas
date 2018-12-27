@@ -1,0 +1,7 @@
+module Click_3DHall2_config
+
+include Click_3DHall2_types
+const
+    _C3DHALL2_I2C_CFG as uint32_t[1] = (100000)
+    
+end.

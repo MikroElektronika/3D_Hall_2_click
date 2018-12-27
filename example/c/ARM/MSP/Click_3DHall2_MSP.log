@@ -1,0 +1,22 @@
+0	1	mikroCARM.exe -MSF -DBG -pMSP432P401R -UICD -BIN -DL -SSA -O11111114 -fo48 -N"D:\Clicks_git\Number\3D_Hall_2_Click\SW\example\c\ARM\MSP\Click_3DHall2_MSP.mcpar" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\TI M4\" -SP"D:\Clicks_git\Number\3D_Hall_2_Click\SW\example\c\ARM\MSP\" -SP"D:\Clicks_git\Number\3D_Hall_2_Click\SW\library\HAL\" -SP"D:\Clicks_git\Number\3D_Hall_2_Click\SW\library\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\mikroBUS V8 Board Definition API\Uses\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\TI M4\" -IP"D:\Clicks_git\Number\3D_Hall_2_Click\SW\example\c\ARM\MSP\" -IP"D:\Clicks_git\Number\3D_Hall_2_Click\SW\library\" -IP"D:\Clicks_git\Number\3D_Hall_2_Click\SW\library\HAL\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\mikroBUS V8 Board Definition API\Uses\" "Click_3DHall2_MSP.c" "__c3dhall2_driver.c" "__Lib_Math.emcl" "__Lib_MathDouble.emcl" "__Lib_Delays_MSP432.emcl" "__Lib_System_MSP432P.emcl" "__Lib_GPIO_MSP_Defs.emcl" "__Lib_GPIO_MSP.emcl" "__Lib_CString.emcl" "__Lib_Conversions.emcl" "__Lib_I2C_MSP.emcl" "__Lib_UART_MSP.emcl" "fusion_v8_MSP432P401RIPZ.emcl" "Click_3DHall2.pld"	 
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 68	123	Compiled Successfully	Click_3DHall2_MSP.c
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 223	123	Compiled Successfully	__c3dhall2_driver.c
+hint: 323	1164	Variable 'tmp' has been eliminated by optimizer	__c3dhall2_driver.c
+hint: 81	1164	Variable 'tmp' has been eliminated by optimizer	__c3dhall2_driver.c
+hint: 96	1164	Variable 'ptr' has been eliminated by optimizer	__c3dhall2_driver.c
+hint: 104	1164	Variable 'ptr' has been eliminated by optimizer	__c3dhall2_driver.c
+hint: 45	1164	Variable 'retVal' has been eliminated by optimizer	__c3dhall2_driver.c
+hint: 62	1164	Variable 'retVal' has been eliminated by optimizer	__c3dhall2_driver.c
+hint: 78	1164	Variable 'retVal' has been eliminated by optimizer	__c3dhall2_driver.c
+hint: 94	1164	Variable 'retVal' has been eliminated by optimizer	__c3dhall2_driver.c
+hint: 215	1164	Variable 'Temperature' has been eliminated by optimizer	__c3dhall2_driver.c
+diagnostics: 0	127	All files Compiled in 94 ms	 
+hint: 0	1144	Used RX: 16 (100%)   Free RX: 0 (0%)	Used RX: 16 (100%)   Free RX: 0 (0%)
+hint: 0	1144	Static RAM (bytes): 194   Dynamic RAM (bytes): 65337	Static RAM (bytes): 194   Dynamic RAM (bytes): 65337
+hint: 0	1144	Used ROM (bytes): 10619 (4%)  Free ROM (bytes): 251525 (96%)	Used ROM (bytes): 10619 (4%)  Free ROM (bytes): 251525 (96%)
+diagnostics: 0	125	Project Linked Successfully	Click_3DHall2_MSP.mcpar
+diagnostics: 0	128	Linked in 234 ms	 
+diagnostics: 0	129	Project 'Click_3DHall2_MSP.mcpar' completed: 437 ms	 
+diagnostics: 0	103	Finished successfully: 05 okt 2018, 14:49:50	Click_3DHall2_MSP.mcpar

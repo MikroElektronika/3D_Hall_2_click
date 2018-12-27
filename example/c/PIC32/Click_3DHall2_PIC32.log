@@ -1,0 +1,30 @@
+0	1	mikroCPIC32.exe -MSF -DBG -pP32MX795F512L -UICD -C -DL -SSA -EBASE 0x9FC01000 -INTDEF MV_SRS7_IS32 -O11111115 -fo80 -N"D:\Clicks_git\Number\3D_Hall_2_Click\SW\example\c\PIC32\Click_3DHall2_PIC32.mcp32" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC32\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC32\Uses\" -SP"D:\Clicks_git\Number\3D_Hall_2_Click\SW\example\c\PIC32\" -SP"D:\Clicks_git\Number\3D_Hall_2_Click\SW\library\HAL\" -SP"D:\Clicks_git\Number\3D_Hall_2_Click\SW\library\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC32\Packages\mikroBUS Board Definition API\Uses\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC32\Uses\" -IP"D:\Clicks_git\Number\3D_Hall_2_Click\SW\example\c\PIC32\" -IP"D:\Clicks_git\Number\3D_Hall_2_Click\SW\library\" -IP"D:\Clicks_git\Number\3D_Hall_2_Click\SW\library\HAL\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC32\Packages\mikroBUS Board Definition API\Uses\" "Click_3DHall2_PIC32.c" "__c3dhall2_Driver.c" "__Lib_CP0.emcl" "__Lib_Math.emcl" "__Lib_MathDouble.emcl" "__Lib_System.emcl" "__Lib_SoftResetDma.emcl" "__Lib_Delays.emcl" "__Lib_CString.emcl" "__Lib_Conversions.emcl" "__Lib_I2C_12345.emcl" "__Lib_UART_123456.emcl" "easypicfusion_v7_P32MX795F512L.emcl" "Click_3DHall2.pld"	 
+diagnostics: 0	122	Compilation Started	P32MX795F512L.c
+diagnostics: 39364	123	Compiled Successfully	P32MX795F512L.c
+diagnostics: 0	122	Compilation Started	__Lib_Delays.c
+diagnostics: 176	123	Compiled Successfully	__Lib_Delays.c
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 349	123	Compiled Successfully	easypicfusion_v7_P32MX795F512L.c
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 72	123	Compiled Successfully	Click_3DHall2_PIC32.c
+diagnostics: 0	122	Compilation Started	stdint.h
+warning: 229	1508	Implicit conversion of int to ptr	__c3dhall2_Driver.c
+diagnostics: 230	123	Compiled Successfully	__c3dhall2_Driver.c
+hint: 323	1164	Variable 'tmp' has been eliminated by optimizer	__c3dhall2_Driver.c
+hint: 95	1164	Variable 'tmp' has been eliminated by optimizer	__c3dhall2_Driver.c
+hint: 45	1164	Variable 'retVal' has been eliminated by optimizer	__c3dhall2_Driver.c
+hint: 62	1164	Variable 'retVal' has been eliminated by optimizer	__c3dhall2_Driver.c
+hint: 78	1164	Variable 'retVal' has been eliminated by optimizer	__c3dhall2_Driver.c
+hint: 94	1164	Variable 'retVal' has been eliminated by optimizer	__c3dhall2_Driver.c
+hint: 167	1164	Variable 'offset_1' has been eliminated by optimizer	__c3dhall2_Driver.c
+hint: 168	1164	Variable 'offset_2' has been eliminated by optimizer	__c3dhall2_Driver.c
+hint: 212	1164	Variable 'Temperature' has been eliminated by optimizer	__c3dhall2_Driver.c
+diagnostics: 0	127	All files Compiled in 141 ms	 
+hint: 0	1144	Used RX: 32 (100%)   Free RX: 0 (0%)	Used RX: 32 (100%)   Free RX: 0 (0%)
+hint: 0	1144	Static RAM (bytes): 717   Dynamic RAM (bytes): 130349	Static RAM (bytes): 717   Dynamic RAM (bytes): 130349
+hint: 0	1144	Used ROM (bytes): 14542 (3%)  Free ROM (bytes): 509746 (97%)	Used ROM (bytes): 14542 (3%)  Free ROM (bytes): 509746 (97%)
+hint: 0	1144	Used BOOTROM (bytes): 320 (3%)  Free BOOTROM (bytes): 11953 (97%)	Used BOOTROM (bytes): 320 (3%)  Free BOOTROM (bytes): 11953 (97%)
+diagnostics: 0	125	Project Linked Successfully	Click_3DHall2_PIC32.mcp32
+diagnostics: 0	128	Linked in 219 ms	 
+diagnostics: 0	129	Project 'Click_3DHall2_PIC32.mcp32' completed: 1297 ms	 
+diagnostics: 0	103	Finished successfully: 05 okt 2018, 16:05:10	Click_3DHall2_PIC32.mcp32
